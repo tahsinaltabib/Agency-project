@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hovermain{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.hoverimg{
+    position: absolute;
+    top: 0;
+    left: -52%;
+    width:52%;
+    height: 100%;
+    transition: 0.7s;
+
+}
+.hovermain:hover .hoverimg{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width:52%;
+    height: 100%;
+}
+
+
