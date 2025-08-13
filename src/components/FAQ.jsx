@@ -10,9 +10,9 @@ const FuLast = () => {
             <h3 className="font-poppins text-[38px] font-semibold leading-[56px] pb-[16px] ">
               Frequently asked question
             </h3>
-            <p className="text-[#2405F2]">
+            <button className="text-[#2405F2]">
               Contact us for more info
-            </p>
+            </button>
           </Col>
 
           <Col lg={{ span: 8, offset: 1 }}>

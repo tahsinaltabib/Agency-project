@@ -4,10 +4,12 @@ import Banner from '../components/Banner'
 import HomePart from '../components/HomePart'
 import ProjectPart from '../components/Project'
 import Ourfeature from '../components/Ourfeature'
+import PublicReaction from '../components/PublicReaction'
 import FAQ from '../components/FAQ'
 import Form from '../components/Msg'
 import Ourblog from '../components/Ourblog'
 import Footer from '../components/Footer'
+
 
 const Home = () => {
   return (
@@ -17,6 +19,7 @@ const Home = () => {
       <HomePart/>
       <ProjectPart/>
       <Ourfeature />
+      <PublicReaction/>
       <FAQ/>
       <Form/>
       <Ourblog/>
