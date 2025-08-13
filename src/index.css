@@ -26,4 +26,25 @@
     height: 100%;
 }
 
+.fromhmain .fromhovertext{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
 
+}
+
+.fromhmain{
+    position: relative;
+    overflow: hidden;
+    
+}
+.fromhoveranim:hover .fromhovertext{
+ left: 0;
+}
+
+.card{
+    border: none;
+}
